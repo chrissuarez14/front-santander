@@ -1,0 +1,23 @@
+:root{
+    --textotitulo:#46484C;
+    --textopromocional:#8b8b8bcc;
+    --textoboton:#fff;
+    --fondopagina:#f49e47;
+    --fondoboton:#025157;
+}
+
+body{
+    background-color: var(--fondopagina);
+}
+h1{
+    color:rgb(111,111,201);
+}
+h2,h3,h4,h5,h6{
+    color: var(--textotitulo);
+}
+p{
+    color:var(--textopromocional);
+}
+button{
+    background-color: var(--fondoboton);
+}
